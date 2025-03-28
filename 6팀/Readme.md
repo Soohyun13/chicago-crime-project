@@ -1,6 +1,6 @@
 # 🌍 글로벌 테러리즘 분석 프로젝트
 
-![프로젝트 배너](https://i.namu.wiki/i/bd6KE5LOv-PvulfhcQYkEG61RBFiH8zDivQO-4MIsleJ1L-3e9Bd34Yu3swplS3GCGjSH_CP0oCPNux8wSHQbfsAw0HM0yLqbdUeR7NYWmtuoEoEXsgqkPrbhOYSalN3iwYZzkYc5VZzCkzaYEN3Tw.webp)
+![프로젝트 배너](https://i.pinimg.com/736x/b7/c7/fd/b7c7fdfd68e41c035569982893c90083.jpg)
 
 이 프로젝트는 전 세계에서 발생한 테러 사건 데이터를 분석하여,
 공격 유형, 대상, 지역별 분포 등의 인사이트를 시각화하고자 합니다.
