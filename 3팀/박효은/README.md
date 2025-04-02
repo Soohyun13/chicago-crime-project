@@ -9,5 +9,7 @@
   ※ 최종 전처리 파일로 새로 실행하였음
 - [0331 파이널 프로젝트 Community Area 지도](https://colab.research.google.com/drive/1jSs6GXKJl-EA4-1MQdOCg4UTyL1CcUI9?usp=sharing)  
   ※ 최종 전처리 파일로 실행하였음
-- [0401 파이널 프로젝트 추론통계 + 지도](https://colab.research.google.com/drive/1oq4JyQxUvnT1XAiTNjufAQLGSqNhWoVF?usp=sharing)
+- [0401 파이널 프로젝트 추론통계 + 지도](https://colab.research.google.com/drive/1oq4JyQxUvnT1XAiTNjufAQLGSqNhWoVF?usp=sharing)  
   ※ 최종 전처리 파일로 실행하였음
+- [0402 파이널 프로젝트 군집분석](https://colab.research.google.com/drive/1-o3ivNKRcNw1_yCXUm5SHGKGV84BjWR1?usp=sharing)  
+  ※ 최종 전처리 파일을 집계하여 실행하였음
