@@ -38,14 +38,18 @@
 | ☁️ 협업 및 실행 | `Google Colab`                             | 코드 실행 및 팀원 간 실시간 협업 |
 ---
 
-## 🧹 전처리 요약
 
-- 날짜 및 시간 형식 변환 (`MM/DD/YYYY` → `YYYY-MM-DD`)
-- 결측치 제거 및 처리: `Location Description`, `Community Area` 등
-- 주요 컬럼 정리: `Primary Type`, `Arrest`, `Community Area`, `Date`
-- 범죄 유형 필터링: 상위 10개 유형 기준 분석
-- 불필요 컬럼 제거: `Case Number`, `ID`, `FBI Code` 등
-- `Community Area` 매핑을 위한 GeoJSON 정제 및 병합
+## 🧹전처리 단계 요약
+
+| 단계 | 작업 내용 | 삭제/대체된 수 |
+|------|-----------|----------------|
+| 1 | 중복행 제거 (`Case Number` 기준) | 493행 제거 |
+| 2 | 주소(`Block`) 기준 그룹 최빈값으로 결측치 대체 (`Location`, `Latitude`, `Ward`, 등) | - |
+| 3 | 좌표 관련 결측치 제거 (`X/Y Coordinate`, `Latitude/Longitude`, `Location`) | 2,956행 제거 |
+| 4 | 외부 자료 기반 `Ward`, `Community Area` 결측치 대체 후 잔여 결측치 제거 | Ward 411개, CA 347개 제거 |
+| 5 | `Community Area` 번호에 이름 매핑 (조인) | - |
+| 6 | `Date` 컬럼을 날짜(`F_Date`)와 시간(`Time`)으로 분리 | - |
+| 7 | `fillna()` 처리 중 발생한 중복행 제거 (GeoPandas `sjoin` 영향) | 1,197행 제거 |
 
 ---
 
@@ -56,7 +60,6 @@
 - 🎯 체포 가능성 예측 모델 개발 (분류 모델)
 - 📈 통계 기반 인사이트 도출 (카이제곱 검정, Cramér’s V 등)
 
----
 
 ---
 ## 📈 결과 요약
