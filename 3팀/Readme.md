@@ -41,15 +41,27 @@
 
 ## 🧹전처리 단계 요약
 
-| 단계 | 작업 내용 | 삭제/대체된 수 |
-|------|-----------|----------------|
-| 1 | 중복행 제거 (`Case Number` 기준) | 493행 제거 |
-| 2 | 주소(`Block`) 기준 그룹 최빈값으로 결측치 대체 (`Location`, `Latitude`, `Ward`, 등) | - |
-| 3 | 좌표 관련 결측치 제거 (`X/Y Coordinate`, `Latitude/Longitude`, `Location`) | 2,956행 제거 |
-| 4 | 외부 자료 기반 `Ward`, `Community Area` 결측치 대체 후 잔여 결측치 제거 | Ward 411개, CA 347개 제거 |
-| 5 | `Community Area` 번호에 이름 매핑 (조인) | - |
-| 6 | `Date` 컬럼을 날짜(`F_Date`)와 시간(`Time`)으로 분리 | - |
-| 7 | `fillna()` 처리 중 발생한 중복행 제거 (GeoPandas `sjoin` 영향) | 1,197행 제거 |
+
+1. **중복 데이터 제거**
+   - `Case Number` 기준 중복된 493행 제거 (`drop_duplicates` 사용)
+
+2. **결측치 확인 및 그룹 기반 대체**
+   - 결측치 발생 컬럼: `Location Description`, `District`, `Community Area`, `Ward`, `X/Y Coordinate`, `Latitude/Longitude`, `Location`
+   - `Block`(주소) 컬럼에는 결측치가 없다는 점을 활용
+   - 동일 Block 내 사건은 지리적으로 인접하다는 가정 하에, **Block 단위 그룹의 최빈값**으로 결측치 보완
+
+3. **좌표 관련 결측치 제거**
+   - 결측치 보완 후에도 남은 `Latitude`, `Longitude`, `X/Y Coordinate`, `Location`의 결측치 2,956건 제거 (전체의 약 0.036%)
+
+4. **외부 데이터를 활용한 행정구역 보완**
+   - `Ward`: 선거구 기준이 시기별로 달라 다른 연도별 데이터셋(2003–2015, 2016–2022, 2023–현재)을 참고하여 결측치 보완
+     - 보완 후에도 남은 411건(0.005%)은 삭제
+   - `Community Area`: 고정된 행정 구역 단위로, 최신 데이터를 활용해 결측치 보완
+     - 0번(잘못된 값)인 76행 삭제 후, 보완되지 않은 347행(0.004%)도 삭제
+
+5. **Community Area 이름 매핑**
+   - `Community Area` 번호(1~77)를 **외부 데이터 기준 지역명으로 매핑**하여 시각화 및 해석 용이성 향상
+
 
 ---
 
