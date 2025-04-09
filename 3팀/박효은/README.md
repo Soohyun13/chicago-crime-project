@@ -1,5 +1,3 @@
-"# first commit Readme" 
-
 # COLAB 링크 정리
 - [0326 파이널 프로젝트 EDA](https://colab.research.google.com/drive/1UgCwqIj6GiiSCbXQlzkVJZUKwoz53NOR?usp=sharing)  
   ※ 최종 전처리 파일로 실행하였음  
@@ -16,3 +14,4 @@
 - [0403 파이널 프로젝트 머신러닝(분류 랜덤포레스트)](https://colab.research.google.com/drive/1q947P5TZ0vh58_QZucoHqP5HP5j5Laon?usp=sharing)   
 - [0404 파이널 프로젝트 워드 클라우드](https://colab.research.google.com/drive/1Bo31fcok8YvDwyBqORYHvoUyXztnvJtX?usp=sharing)
 - [0404 파이널 프로젝트 머신러닝 (수치형 자료 추가)](https://colab.research.google.com/drive/1RmaPnsBFel2uFe816tBSBVN33WWpEQIh?usp=sharing)
+- [0409 파이널 프로젝트 optuna](https://colab.research.google.com/drive/1o3-jMirS3XwSXJRMWRHlm_fZJZmqHKIo?usp=sharing)
