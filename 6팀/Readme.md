@@ -13,6 +13,10 @@
 - 기간: 1990 ~ 2016
 - 데이터 포맷: CSV
 
+## 🧾 프로젝트 기록
+
+- https://boatneck-cormorant-f6f.notion.site/6-Final-Project-1c08a77d96d980f1b41fcf5e8dd5fda6?pvs=4
+
 ## 🎯 프로젝트 목표
 
 - 전 세계 테러 사건의 추세 분석
