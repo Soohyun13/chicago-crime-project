@@ -1,7 +1,3 @@
 # Final-Project
 
-- 데이터분석 4기의 파이널 프로젝트를 위한 Git hub입니다.
-
-- 각 팀별로 branch 세팅을 통해 팀별 폴더를 구성해 주시기 바랍니다.
-
-- Pull-Request는 04월 10일 정오에 운영진이 직접 할 예정이니, 수강생 분들께서는 P-R을 누르는 일이 없도록 주의 바랍니다. 임의로 PR 진행시, 타 팀의 현황 기록에 피해가 갈 수 있습니다.
+- 구글드라이브: https://drive.google.com/drive/folders/1-GgtsMFxIsXm_RXfK8DCloK_OVSVdHg9?usp=sharing
