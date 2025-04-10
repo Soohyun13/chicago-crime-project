@@ -24,6 +24,10 @@
 
 <hr/>
 
+## 진행 사항 (Notion에 기재)
+> 2025.03.28 ~ 2025.04.10 (총 14일)
+- [Notion 회의록] (https://www.notion.so/likelion/4-4tential-1bd44860a4f48084b5aecab8de9491e0?pvs=4)
+
 ## 주요 가설
 
 1. 내전은 테러 발생에 유의미한 영향을 준다 (가설 기각)
