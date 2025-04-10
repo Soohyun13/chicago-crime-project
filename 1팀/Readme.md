@@ -25,5 +25,6 @@
   - 📜 README.md # 프로젝트 설명 파일
   - 📂 name # 각자 개인적으로 분석했던 코드 파일
 
-## 📌 참고자료
+## 📌 참고
 - [데이터 출처: Chicago Crime](https://www.kaggle.com/datasets/abhisheksinghblr/chicago-crime)
+- [팀 노션 링크](https://likelion.notion.site/1-1bd44860a4f480d0aafcf1fff46b6061)
