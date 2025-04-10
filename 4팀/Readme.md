@@ -37,4 +37,4 @@
 
 ## 참고 자료
 
-- 사용 데이터 : [GTD Database][https://catalog.data.gov/dataset/global-terrorism-database/resource/a37c3d59-35cb-4d86-b221-b8437b9f70d4#:~:text=,annual%20updates%20planned%20for%20the]
+- 사용 데이터 : [GTD Database](https://catalog.data.gov/dataset/global-terrorism-database/resource/a37c3d59-35cb-4d86-b221-b8437b9f70d4#:~:text=,annual%20updates%20planned%20for%20the)
